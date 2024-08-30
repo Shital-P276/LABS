@@ -1,0 +1,11 @@
+write func declaration (int add(int,int)) in add.c
+1) gcc -c add.c  //--> creates add.o
+
+write func defn in lib.h 
+include lib.h in main file using (#inlcude""lib.h")
+
+2) gcc add.o main.c 
+
+3) ./a.out if compilation result is a .out file 
+OR 
+3) ./a.exe if the compilation result is .exe file 
