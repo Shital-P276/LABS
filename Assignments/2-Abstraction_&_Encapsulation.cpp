@@ -41,10 +41,10 @@ using namespace std;
 int main() {
 	Math obj;
 
-	cout << obj.add(5, 5) << endl;
-	cout << obj.sub(5, 5) << endl;
-	cout << obj.multiply(5, 5) << endl;
-	cout << obj.divide(5, 5) << endl;
+	cout << "Addition : " << obj.add(5, 5) << endl;
+	cout << "Subtraction : " << obj.sub(5, 5) << endl;
+	cout << "Multiplication : " << obj.multiply(5, 5) << endl;
+	cout << "Division : " << obj.divide(5, 5) << endl;
 
 	return 0;
 }
