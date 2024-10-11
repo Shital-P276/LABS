@@ -12,21 +12,21 @@ class Student{
 	public:
 		static int cnt;
 		Student(){
-            cnt++;
-            rollNo = cnt;
-        }//constructor
+           		 cnt++;
+           		 rollNo = cnt;
+        	}//constructor
 		
 		int getRollNo(){
-            return rollNo;
-        } //Getter Method for Roll No
+            		return rollNo;
+       		} //Getter Method for Roll No
 		
-        char* getName(){
-            return name;
-        }//Getter Method for Name
+        	char* getName(){
+            		return name;
+        	}//Getter Method for Name
 		
-        void setName(char* stdname){
-            strncpy(name , stdname , sizeof(name));
-        }//Setter Method for Name
+        	void setName(char* stdname){
+            		strncpy(name , stdname , sizeof(name));
+        	}//Setter Method for Name
 };
 
 int Student::cnt = 0;
