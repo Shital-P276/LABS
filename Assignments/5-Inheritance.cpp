@@ -3,6 +3,8 @@ TODO :
 1] store it in heap 
 2] Should be dynamic (no fixed size array)
 3] Use a single array (person) instead of student & Teacher
+4] use flags to identify if person[cnt] is teacher or student --> set flag while entering details --> when displaying differentiate by using flag
+5] Research on how to identify which element is at current position in array
 */
 
 #include <iostream>
