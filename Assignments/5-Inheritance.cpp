@@ -1,3 +1,10 @@
+/*
+TODO :
+1] store it in heap 
+2] Should be dynamic (no fixed size array)
+3] Use a single array (person) instead of student & Teacher
+*/
+
 #include <iostream>
 #include <cstring>
 using namespace std;
