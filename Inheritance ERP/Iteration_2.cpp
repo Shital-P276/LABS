@@ -5,12 +5,14 @@ TODO :
 3] -Use-a-single-array-(person)-instead-of-student-&-Teacher-
 4] -use-flags-to-identify-if-person[cnt]-is-teacher-or-student-->set-flag-while-entering-details-->when-displaying-differentiate-by-using-flag
 5] Research on how to identify which element is at current position in array
+6] Use lecture stuff (late binding)
+7] Use linked lists instead of array
 */
 
 /*
 ITERATION 2: 
 > TODO Completed 1, 3, 4
-> Stored objects on Heap
+> Stored objects on 
 > Used a single array to store person instead of 2 arrays of student and teacher
 > Used isTeacher flag to identify student or teacher from the people array
 > Used cout in classes of student & teacher
