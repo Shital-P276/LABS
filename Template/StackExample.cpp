@@ -2,15 +2,6 @@
 using namespace std;
 
 template<class T>
-class Node{
-	public:
-		T val;
-		Node(T v){
-			val=v;
-		}
-};
-
-template<class T>
 class Stack{
 	int top;
 	T store[3];
