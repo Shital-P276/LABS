@@ -75,7 +75,7 @@ int main(){
 	cout<<s.pop()<<endl;
 	// cout<<s.peek()<<endl;
 	s.pop();
-	s.pop();
+    s.pop();
     s.pop(); // should give Underflow execption as stack top is nullptr bfor this call
     s.push(5);
     cout<<s.peek()<<endl;
