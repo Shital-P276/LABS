@@ -61,7 +61,7 @@ class Stack{
             catch(UnderFlowException e){return -1;}
 		}
 };
-
+ 
 int main(){
 	
 	Stack<int> s;
