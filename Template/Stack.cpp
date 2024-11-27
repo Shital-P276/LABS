@@ -1,3 +1,4 @@
+//Infinte storage stack template 
 #include<iostream>
 using namespace std;
 
